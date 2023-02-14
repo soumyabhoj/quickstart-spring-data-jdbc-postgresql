@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'PostgressApp'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A790FC20F41F457A8DD31302CE8A958A }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_065D7A0CAB9446DDB04E311A6B4191F7 }}
           package: '*.jar'
